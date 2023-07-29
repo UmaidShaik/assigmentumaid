@@ -49,7 +49,6 @@ public class ArrayStatistics {
             median = numbers[mid];
         }
 
-        // Calculating frequency of each number
         Map<Integer, Integer> frequencyMap = new HashMap<>();
         for (int num : numbers) {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);

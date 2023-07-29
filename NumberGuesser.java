@@ -17,7 +17,7 @@ public class NumberGuesser {
 		while(turns<=6)
 		{
 			System.out.println("your turn is "+ turns );
-			System.out.println("enter the Number ");
+			System.out.println("enter the Number between 1 to 100 ");
 			Number=sc.nextDouble();
 			if(randomnumber==Number) {
 				System.out.println("You win");
